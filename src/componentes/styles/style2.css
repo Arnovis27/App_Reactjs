@@ -1,0 +1,189 @@
+body{
+    width:360px;
+    height: 520px;
+    border: 2px solid green;
+    margin: auto;
+}
+
+.contenedor2{
+    width:100%;
+    height: 100%;
+    background-color: #f5f4f2;
+}
+
+.barra{
+    width: 100%;
+    height: 7%;
+    background-color: #fa9c78;
+    display: flex;
+}
+
+.menus{
+    width: 15%;
+    height: 95%;
+}
+
+.titulo{
+    width: 70%;
+    height: 95%;
+}
+
+.logo{
+    width: 15%;
+    height: 95%;
+}
+
+.segundo{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 23px;
+}
+
+.patita{
+    width: 53%;
+    height: 79%;
+    margin-top: 4%;
+    margin-left: 17%;
+}
+
+/*menu desplegable*/
+nav{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+                  
+    li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    }
+                
+    li a{
+    text-decoration:none;
+    display:inline-block;
+    /*! padding:10px; */
+    width:77%;
+    height:36%;
+    color:#fff;
+    background-color: #fa9c78;
+    padding-left: 8%;
+    padding-top: 9%;
+    }
+            
+    li a:hover{
+    color:#000;
+    background-color:#fff;
+                
+    }
+    
+    nav li ul{
+        display:none;
+        position:absolute;
+        top:100%;
+        bottom:30%;
+    }
+            
+    nav li:hover ul{display:block;}
+/*acaba aqui*/
+
+.centro2{
+    width: 100%;
+    height: 83%;
+}
+
+.centrado{
+    width:82%;
+    height: 95%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.cincuenta{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.cuadro1{
+    width: 49%;
+    height: 60%;
+}
+
+.imagen1{   
+    width: 100%;
+    height: 82%;
+}
+
+.nombre{
+    color: black;
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+.cuadro2{
+    width: 49%;
+    height: 63%;
+    margin-top: 28%;
+}
+.imagen2{   
+    width: 100%;
+    height: 82%;
+    margin-left: 2%;
+}
+
+.cuadro3{
+    width: 49%;
+    height: 87%;
+    margin-top: -8%;
+}
+
+.imagen3{
+    width: 100%;
+    height: 82%;
+}
+
+.cuadro4{
+    width: 49%;
+    height: 87%;
+    margin-top: 13%;
+    margin-left: 1%;
+}
+
+.imagen4{
+    width: 100%;
+    height: 81%;
+}
+
+.final{
+    width: 100%;
+    height: 7%;
+    background-color:#fa9c78;
+}
+
+.facebook{
+    width: 13%;
+    height: 73%;
+    margin-top: 1%;
+    margin-left: 21%;
+}
+
+.twitter{
+    width: 13%;
+    height: 73%;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+
+.telegram{
+    width: 13%;
+    height: 73%;
+    margin-top: 1%;
+    margin-left: 6%;
+}
